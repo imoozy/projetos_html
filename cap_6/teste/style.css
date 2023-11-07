@@ -1,0 +1,14 @@
+.box {
+    text-align: center;
+    background-color: #DC143c;
+    color: #fff;
+}
+/* first-line */
+h2::after {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background-color: #FFF;       
+    margin: 20px auto 10px;
+    display: block;
+}

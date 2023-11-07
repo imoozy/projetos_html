@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hotel {
+    width: 600px;
+    height: 700px;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 0 5px;
+}
+
+.hotel_imagem {
+    width: 100%;
+}
+
+.hotel_nome{
+    margin: 10px 0px;
+    font-size: 40px;
+    color: #333;
+}
+
+.hotel_cidade {
+    margin: 10px 0;
+    font-size: 20px ;
+}
+
+.estrela_cinza {
+    color: #ccc;
+}
+
+.hotel_descricao {
+    margin: 10px 0px 20px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.hotel_link {
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+.hotel_link:hover {
+    background-color: #fff;
+    color: #333;
+}
